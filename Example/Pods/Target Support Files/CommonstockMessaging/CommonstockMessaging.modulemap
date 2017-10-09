@@ -1,0 +1,6 @@
+framework module CommonstockMessaging {
+  umbrella header "CommonstockMessaging-umbrella.h"
+
+  export *
+  module * { export * }
+}

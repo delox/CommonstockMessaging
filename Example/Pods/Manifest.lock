@@ -1,0 +1,16 @@
+PODS:
+  - CommonstockMessaging (0.1.0)
+
+DEPENDENCIES:
+  - CommonstockMessaging (from `../`)
+
+EXTERNAL SOURCES:
+  CommonstockMessaging:
+    :path: ../
+
+SPEC CHECKSUMS:
+  CommonstockMessaging: 947163ad83c468909d05e866a1a624b4fee757fd
+
+PODFILE CHECKSUM: 4571f667ebebc1ab58ba8fda00d65a23f3bb601a
+
+COCOAPODS: 1.3.1
