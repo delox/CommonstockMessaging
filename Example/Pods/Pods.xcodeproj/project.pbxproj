@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		29BC6EB6631DD890DD8DC6B5B4BC2B02 /* CommonstockMessaging-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A2008CD38B1F5C124386CF42C2735CD /* CommonstockMessaging-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2A9E4C8D814591B85A127B6F2AC25C8C /* Pods-CommonstockMessaging_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D3B4FE45504D583126AEBE1B5AD850D0 /* Pods-CommonstockMessaging_Tests-dummy.m */; };
-		2ADFD926C5765F6F8EF8E89D78980311 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AB91910754A9889EB4C8B5761DEF654 /* ReplaceMe.swift */; };
+		2ADFD926C5765F6F8EF8E89D78980311 /* GSAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AB91910754A9889EB4C8B5761DEF654 /* GSAlert.swift */; };
 		2D17A7A4B6AE325CFB56106680401750 /* Pods-CommonstockMessaging_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A48E245D213291327110C13B3EE19979 /* Pods-CommonstockMessaging_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		779ED875E8971C55DFE13178C51258C0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		A23B7BB1E6C57E2767AD8A8D3163879E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
@@ -28,20 +28,20 @@
 
 /* Begin PBXFileReference section */
 		08070AE5F35EF00638D26F79037D6138 /* CommonstockMessaging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CommonstockMessaging.xcconfig; sourceTree = "<group>"; };
-		13C1CEBFF9F6EEFC9BAA5E1AE3221BAB /* CommonstockMessaging.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = CommonstockMessaging.modulemap; sourceTree = "<group>"; };
+		13C1CEBFF9F6EEFC9BAA5E1AE3221BAB /* CommonstockMessaging.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = CommonstockMessaging.modulemap; sourceTree = "<group>"; };
 		1437BEE31922758FA08B55F63033DF6C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		277EF14536E4AEEA827AD5E90B567E87 /* Pods-CommonstockMessaging_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CommonstockMessaging_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		2C228FA6453CE2825015F8C9F24EF9D8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		34D7C7646B35000523F948A9E2B27014 /* CommonstockMessaging-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CommonstockMessaging-prefix.pch"; sourceTree = "<group>"; };
 		3B2D9A76040A71F8A50FA3EFEEAB2225 /* Pods-CommonstockMessaging_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CommonstockMessaging_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		48476A322CCC946CA39E651EC755B4F3 /* Pods-CommonstockMessaging_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CommonstockMessaging_Tests-resources.sh"; sourceTree = "<group>"; };
-		58E542B926B8FAFD122BDBFF8F0F556B /* Pods-CommonstockMessaging_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-CommonstockMessaging_Tests.modulemap"; sourceTree = "<group>"; };
+		58E542B926B8FAFD122BDBFF8F0F556B /* Pods-CommonstockMessaging_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-CommonstockMessaging_Tests.modulemap"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		68A867591E7587164416FA1241BE969A /* Pods_CommonstockMessaging_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CommonstockMessaging_Tests.framework; path = "Pods-CommonstockMessaging_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		7AB91910754A9889EB4C8B5761DEF654 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = CommonstockMessaging/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
-		8592F0437811EC3ED80EC9F894A0D423 /* CommonstockMessaging.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CommonstockMessaging.framework; path = CommonstockMessaging.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		68A867591E7587164416FA1241BE969A /* Pods_CommonstockMessaging_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CommonstockMessaging_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7AB91910754A9889EB4C8B5761DEF654 /* GSAlert.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GSAlert.swift; path = CommonstockMessaging/Classes/GSAlert.swift; sourceTree = "<group>"; };
+		8592F0437811EC3ED80EC9F894A0D423 /* CommonstockMessaging.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CommonstockMessaging.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A2008CD38B1F5C124386CF42C2735CD /* CommonstockMessaging-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CommonstockMessaging-umbrella.h"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9FCEB31298104E247407ED65DF815AF5 /* Pods-CommonstockMessaging_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CommonstockMessaging_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		A48E245D213291327110C13B3EE19979 /* Pods-CommonstockMessaging_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CommonstockMessaging_Tests-umbrella.h"; sourceTree = "<group>"; };
 		B4FE7B7F62F3A40B09F54630EAA6CEC2 /* Pods-CommonstockMessaging_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CommonstockMessaging_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -123,7 +123,7 @@
 		BB4FDBE225EFB60F79E1BBA8820C21AF /* CommonstockMessaging */ = {
 			isa = PBXGroup;
 			children = (
-				7AB91910754A9889EB4C8B5761DEF654 /* ReplaceMe.swift */,
+				7AB91910754A9889EB4C8B5761DEF654 /* GSAlert.swift */,
 				5BD775F603B2F82404BB589C4FEA7794 /* Support Files */,
 			);
 			name = CommonstockMessaging;
@@ -262,7 +262,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B2B36EE03648EED53A34816A6B65EEFD /* CommonstockMessaging-dummy.m in Sources */,
-				2ADFD926C5765F6F8EF8E89D78980311 /* ReplaceMe.swift in Sources */,
+				2ADFD926C5765F6F8EF8E89D78980311 /* GSAlert.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,7 +341,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/CommonstockMessaging/CommonstockMessaging-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/CommonstockMessaging/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/CommonstockMessaging/CommonstockMessaging.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
@@ -453,7 +453,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/CommonstockMessaging/CommonstockMessaging-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/CommonstockMessaging/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/CommonstockMessaging/CommonstockMessaging.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;

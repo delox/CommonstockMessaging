@@ -12,14 +12,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		4577F1AA97E6F3E3B62065CC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		4577F1AA97E6F3E3B62065CC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		607FACE51AFB9204008FA782 /* CommonstockMessaging_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CommonstockMessaging_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		7734C20FE0CB85B9FF08BDC5 /* Pods-CommonstockMessaging_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CommonstockMessaging_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CommonstockMessaging_Tests/Pods-CommonstockMessaging_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		93279B726C878DBDE304F815 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		93279B726C878DBDE304F815 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		C0E3DF8E8A69A475A71CF7D8 /* Pods-CommonstockMessaging_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CommonstockMessaging_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CommonstockMessaging_Tests/Pods-CommonstockMessaging_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		DF27547AEA7E4313EA4A4E74 /* CommonstockMessaging.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = CommonstockMessaging.podspec; path = ../CommonstockMessaging.podspec; sourceTree = "<group>"; };
+		DF27547AEA7E4313EA4A4E74 /* CommonstockMessaging.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = CommonstockMessaging.podspec; path = ../CommonstockMessaging.podspec; sourceTree = "<group>"; };
 		E0086132E63D91B0DB3F24B8 /* Pods_CommonstockMessaging_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CommonstockMessaging_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -131,12 +131,9 @@
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = CocoaPods;
 				TargetAttributes = {
-					607FACCF1AFB9204008FA782 = {
-						CreatedOnToolsVersion = 6.3.1;
-						LastSwiftMigration = 0900;
-					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = HUXYC6W3CH;
 						LastSwiftMigration = 0900;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -339,6 +336,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7734C20FE0CB85B9FF08BDC5 /* Pods-CommonstockMessaging_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = HUXYC6W3CH;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -348,6 +346,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -360,11 +359,13 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C0E3DF8E8A69A475A71CF7D8 /* Pods-CommonstockMessaging_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = HUXYC6W3CH;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
