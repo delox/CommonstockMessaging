@@ -1,0 +1,6 @@
+use_frameworks!
+target 'CommonstockMessaging_Tests' do
+  pod 'CommonstockMessaging', :path => '../'
+  
+  
+end
